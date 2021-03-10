@@ -24,6 +24,13 @@ title: First page
   ↓ToolBar [ngx.components.UIDynamicElement-1491634231108]: 
     beanData: '{"ionBean":"ToolBar"}'
     tagName: ion-toolbar
+    ↓ButtonSet1 [ngx.components.UIDynamicElement-1615379572476]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      tagName: ion-buttons
+      ↓Button [ngx.components.UIDynamicElement-1491634442029]: 
+        beanData: '{"ionBean":"MenuButton"}'
+        comment: A button to toggle the menu
+        tagName: ion-menu-button
     ↓BarTitle [ngx.components.UIDynamicElement-1491634265317]: 
       beanData: '{"ionBean":"BarTitle"}'
       tagName: ion-title
@@ -32,11 +39,7 @@ title: First page
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: plain:My First App
-    ↓Button [ngx.components.UIDynamicElement-1491634442029]: 
-      beanData: '{"ionBean":"MenuButton"}'
-      comment: A button to toggle the menu
-      tagName: ion-menu-button
-    ↓ButtonSet [ngx.components.UIDynamicElement-1491634611427]: 
+    ↓ButtonSet2 [ngx.components.UIDynamicElement-1491634611427]: 
       beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
       tagName: ion-buttons
       ↓Button [ngx.components.UIDynamicElement-1491634621907]: 
