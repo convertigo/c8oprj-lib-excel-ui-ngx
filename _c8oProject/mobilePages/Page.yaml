@@ -1,0 +1,265 @@
+↑isRoot: true
+comment: My First Page as root page
+preloadPriority: high
+scriptContent: 
+  - xmlizable: 
+    - ↑classname: com.twinsoft.convertigo.beans.common.FormatedContent
+    - com.twinsoft.convertigo.beans.common.FormatedContent: 
+      →: |
+        /*Begin_c8o_PageImport*/
+        /*End_c8o_PageImport*/
+        /*Begin_c8o_PageDeclaration*/
+        	/*End_c8o_PageDeclaration*/
+        /*Begin_c8o_PageConstructor*/
+        		/*End_c8o_PageConstructor*/
+        /*Begin_c8o_PageFunction*/
+        	/*End_c8o_PageFunction*/
+        
+segment: path-to-page
+title: First page
+↓Header [ngx.components.UIDynamicElement-1491634212350]: 
+  beanData: '{"ionBean":"Header"}'
+  comment: Page header
+  tagName: ion-header
+  ↓ToolBar [ngx.components.UIDynamicElement-1491634231108]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓BarTitle [ngx.components.UIDynamicElement-1491634265317]: 
+      beanData: '{"ionBean":"BarTitle"}'
+      tagName: ion-title
+      ↓Text [ngx.components.UIText-1491634275121]: 
+        textValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: plain:My First App
+    ↓Button [ngx.components.UIDynamicElement-1491634442029]: 
+      beanData: '{"ionBean":"MenuButton"}'
+      comment: A button to toggle the menu
+      tagName: ion-menu-button
+    ↓ButtonSet [ngx.components.UIDynamicElement-1491634611427]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      tagName: ion-buttons
+      ↓Button [ngx.components.UIDynamicElement-1491634621907]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Icon [ngx.components.UIDynamicElement-1491634637555]: 
+          beanData: '{"ionBean":"Icon","IconName":"plain:ellipsis-vertical-outline"}'
+          tagName: ion-icon
+↓Content [ngx.components.UIDynamicElement-1489674805352]: 
+  beanData: '{"ionBean":"Content"}'
+  comment: Page content
+  tagName: ion-content
+  ↓Form [ngx.components.UIForm-1608189222778]: 
+    identifier: form1608189222778
+    ↓FormItem_name [ngx.components.UIDynamicElement-1608644654549]: 
+      beanData: '{"ionBean":"FormItem"}'
+      tagName: ion-item
+      ↓Label [ngx.components.UIDynamicElement-1608644654552]: 
+        beanData: '{"ionBean":"Label","Position":"plain:stacked"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1608644654555]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Sheet name (first sheet if none provided)
+      ↓TextInput [ngx.components.UIDynamicElement-1608644654558]: 
+        beanData: |
+          '{
+           "ionBean": "Input",
+           "ControlName": "plain:name",
+           "Debounce": "plain:0",
+           "Value": "plain:data"
+          }'
+        tagName: ion-input
+    ↓FormItem_path [ngx.components.UIDynamicElement-1608644667009]: 
+      beanData: '{"ionBean":"FormItem"}'
+      tagName: ion-item
+      ↓Label [ngx.components.UIDynamicElement-1608644667012]: 
+        beanData: '{"ionBean":"Label","Position":"plain:stacked"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1608644667015]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:File path
+      ↓TextInput [ngx.components.UIDynamicElement-1608644667018]: 
+        beanData: |
+          '{
+           "ionBean": "Input",
+           "ControlName": "plain:path",
+           "Debounce": "plain:0",
+           "Value": "plain:Documents\/MOCK_DATA.xlsx"
+          }'
+        tagName: ion-input
+    ↓FormItem_range [ngx.components.UIDynamicElement-1608189144921]: 
+      beanData: '{"ionBean":"FormItem"}'
+      tagName: ion-item
+      ↓Label [ngx.components.UIDynamicElement-1608189155321]: 
+        beanData: '{"ionBean":"Label","Position":"plain:stacked"}'
+        tagName: ion-label
+        ↓Text [ngx.components.UIText-1608189163193]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Range (Empty for all data in sheet)
+      ↓TextInput [ngx.components.UIDynamicElement-1608189124938]: 
+        beanData: |
+          '{
+           "ionBean": "Input",
+           "ControlName": "plain:Range",
+           "Debounce": "plain:0",
+           "Value": "plain:A1:E10"
+          }'
+        tagName: ion-input
+  ↓Button [ngx.components.UIDynamicElement-1608055465770]: 
+    beanData: '{"ionBean":"Button"}'
+    tagName: ion-button
+    ↓Text [ngx.components.UIText-1608055478069]: 
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:Authenticate
+    ↓Event [ngx.components.UIControlEvent-1608055501365]: 
+      ↓InvokeSharedAction [ngx.components.UIDynamicInvoke-1608055512197]: 
+        beanData: '{"ionBean":"InvokeAction"}'
+        stack: lib_MicrosoftExcel_Ngx.MobileApplication.Application.Authenticate
+  ↓Button1 [ngx.components.UIDynamicElement-1608134977433]: 
+    beanData: '{"ionBean":"Button"}'
+    tagName: ion-button
+    ↓Text [ngx.components.UIText-1608134983620]: 
+      textValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:GetRange
+    ↓Event [ngx.components.UIControlEvent-1608134992939]: 
+      ↓CallSequence [ngx.components.UIDynamicAction-1608135019735]: 
+        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:lib_MicrosoftExcel_Ngx.SheetGetRange"}'
+        ↓name [ngx.components.UIControlVariable-1608135074082]: 
+          comment: new variable
+          varValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Form","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"priority":1608189222778,"identifier":"form1608189222778"}],"path":"?.controls['name']?.value","prefix":"","suffix":"","custom":"","useCustom":false}}
+        ↓range [ngx.components.UIControlVariable-1608135074084]: 
+          comment: new variable
+          varValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Form","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"priority":1608189222778,"identifier":"form1608189222778"}],"path":"?.controls['Range']?.value","prefix":"","suffix":"","custom":"","useCustom":false}}
+        ↓itemPath [ngx.components.UIControlVariable-1608135074086]: 
+          comment: new variable
+          varValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: source:{"filter":"Form","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"priority":1608189222778,"identifier":"form1608189222778"}],"path":"?.controls['path']?.value","prefix":"","suffix":"","custom":"","useCustom":false}}
+  ↓Div [ngx.components.UIDynamicElement-1608652936473]: 
+    beanData: '{"ionBean":"DivTag"}'
+    tagName: div
+    ↓UseSharedComponent [ngx.components.UIUseShared-1608140613965]: 
+      sharedcomponent: lib_ExtendedComponents_Ngx.MobileApplication.Application.agGrid
+      ↓pagination [ngx.components.UIControlVariable-1608140652141]: 
+        comment: 'boolean: true (default) or false'
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:true
+      ↓paginationPageSize [ngx.components.UIControlVariable-1608140652143]: 
+        comment: 'integer: 10 by default'
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:1000
+      ↓rowSelection [ngx.components.UIControlVariable-1608140652145]: 
+        comment: 'string: ''single'' (default) or ''multiple'''
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:'single'
+      ↓rowDeselection [ngx.components.UIControlVariable-1608140652147]: 
+        comment: 'boolean: true (default) or false'
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:true
+      ↓defaultColDef [ngx.components.UIControlVariable-1608140652149]: 
+        comment: 'default is {hide: false, editable: true, sortable: true, resizable: true, filter: true, checkboxSelection: false, singleClickEdit: false}'
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: 'script:{hide: false, editable: true, sortable: true, resizable: true, filter: true, checkboxSelection: false, singleClickEdit: false}'
+      ↓columnDefs [ngx.components.UIControlVariable-1608140652151]: 
+        comment: 'Array of columnDef {headerName: ''headerName'', field: ''fieldName''} objects'
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"sequence":"lib_MicrosoftExcel_Ngx.SheetGetRange","marker":""}],"path":"?.sheet?.columns","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓rowData [ngx.components.UIControlVariable-1608140652153]: 
+        comment: 'Array of row { fieldName1: ''value1'', fieldName2: ''value2'', fieldName3: true, ...} objects'
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"sequence":"lib_MicrosoftExcel_Ngx.SheetGetRange","marker":""}],"path":"?.sheet?.data","prefix":"","suffix":"","custom":"","useCustom":false}}
+      ↓width [ngx.components.UIControlVariable-1608140652155]: 
+        comment: width value in % or px
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:'100%'
+      ↓height [ngx.components.UIControlVariable-1608140652157]: 
+        comment: height is 'auto' or value in % or px
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:'auto'
+      ↓class [ngx.components.UIControlVariable-1608140652159]: 
+        comment: |
+          'One of the themes provided here :
+          
+          https://www.ag-grid.com/javascript-grid-themes-provided/
+          
+          Also be shure to add the theme in the Theme object as :
+          
+          @import "../../node_modules/ag-grid-community/dist/styles/ag-theme-balham-dark/sass/ag-theme-balham-dark.scss";
+          
+          
+          
+          '
+        varValue: 
+          - xmlizable: 
+            - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+            - MobileSmartSourceType: script:'ag-theme-balham'
+    ↓Attr [ngx.components.UIAttribute-1608652953190]: 
+      attrName: '*ngIf'
+      attrValue: 
+        - xmlizable: 
+          - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+          - MobileSmartSourceType: plain:listen(['lib_MicrosoftExcel_Ngx.SheetGetRange'])?.sheet
+↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
+  beanData: '{"ionBean":"Footer"}'
+  comment: Page footer
+  tagName: ion-footer
+  ↓ToolBar [ngx.components.UIDynamicElement-1491634317538]: 
+    beanData: '{"ionBean":"ToolBar"}'
+    tagName: ion-toolbar
+    ↓ButtonSet [ngx.components.UIDynamicElement-1491634325595]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:start"}'
+      tagName: ion-buttons
+      ↓Button [ngx.components.UIDynamicElement-1491634332730]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Text [ngx.components.UIText-1491634340354]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Action 1
+    ↓ButtonSet1 [ngx.components.UIDynamicElement-1491634373539]: 
+      beanData: '{"ionBean":"ButtonSet","SetPosition":"plain:end"}'
+      tagName: ion-buttons
+      ↓Button [ngx.components.UIDynamicElement-1491634376874]: 
+        beanData: '{"ionBean":"Button"}'
+        tagName: ion-button
+        ↓Text [ngx.components.UIText-1491634383107]: 
+          textValue: 
+            - xmlizable: 
+              - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
+              - MobileSmartSourceType: plain:Action 2

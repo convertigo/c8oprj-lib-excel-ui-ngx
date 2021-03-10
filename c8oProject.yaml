@@ -1,0 +1,25 @@
+↑convertigo: 8.0.0.m006
+↓lib_MicrosoftExcel_Ngx [core.Project]: 
+  comment: The Microsoft Excel Office 365 connector for Convertigo
+  corsOrigin: =Origin
+  version: 2.0.0
+  ↓MSGraphConnector [connectors.HttpConnector]: 🗏 connectors/MSGraphConnector.yaml
+  ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
+  ↓checkAccessToken [sequences.GenericSequence]: 🗏 sequences/checkAccessToken.yaml
+  ↓loginAzureAdWithAccessToken [sequences.GenericSequence]: 🗏 sequences/loginAzureAdWithAccessToken.yaml
+  ↓SheetGetRange [sequences.GenericSequence]: 🗏 sequences/SheetGetRange.yaml
+  ↓lib_ExtendedComponents_reference [references.ProjectSchemaReference]: 
+    projectName: lib_ExtendedComponents_Ngx=https://github.com/convertigo/c8oprj-lib-extended-components-ngx.git:branch=master:autoPull=true
+  ↓MobileBuilderTemplate [references.ProjectSchemaReference]: 
+    comment: mobile builder template
+    projectName: mobilebuilder_tpl_8_0_0_ngx=https://github.com/convertigo/c8oprj-mobilebuilder-tpl.git:branch=mobilebuilder_tpl_8_0_0_ngx:autoPull=true
+  ↓Project_reference [references.ProjectSchemaReference]: 
+    projectName: lib_OAuth=https://github.com/convertigo/c8oprj-lib-oauth.git:branch=master
+  ↓MobileApplication [core.MobileApplication]: 
+    comment: Describes the mobile application global properties
+    splashRemoveMode: beforeUpdate
+    ↓Android [mobileplatforms.Android]: 
+      comment: Android platform
+    ↓iOS [mobileplatforms.IOs]: 
+      comment: iOS platform
+    ↓Application [ngx.components.ApplicationComponent]: 🗏 mobileApplication.yaml
