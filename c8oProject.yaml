@@ -5,7 +5,7 @@
   version: 2.0.0
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓lib_ExtendedComponents_reference [references.ProjectSchemaReference]: 
-    projectName: lib_ExtendedComponents_ui=https://github.com/convertigo/c8oprj-lib-extended-components-ui.git:branch=8.0.0:autoPull=true
+    projectName: lib_ExtendedComponents_ui_ngx=https://github.com/convertigo/c8oprj-lib-extended-components-ui-ngx.git:branch=8.0.0:autoPull=true
   ↓MobileBuilderTemplate [references.ProjectSchemaReference]: 
     comment: mobile builder template
     projectName: mobilebuilder_tpl_8_0_0_ngx=https://github.com/convertigo/c8oprj-mobilebuilder-tpl.git:branch=mobilebuilder_tpl_8_0_0_ngx:autoPull=true
