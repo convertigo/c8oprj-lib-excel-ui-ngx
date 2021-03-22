@@ -159,7 +159,7 @@ title: First page
     beanData: '{"ionBean":"DivTag"}'
     tagName: div
     ↓UseSharedComponent [ngx.components.UIUseShared-1608140613965]: 
-      sharedcomponent: lib_ExtendedComponents_Ngx.MobileApplication.Application.agGrid
+      sharedcomponent: lib_ExtendedComponents_ui_ngx.MobileApplication.Application.agGrid
       ↓pagination [ngx.components.UIControlVariable-1608140652141]: 
         comment: 'boolean: true (default) or false'
         varValue: 
