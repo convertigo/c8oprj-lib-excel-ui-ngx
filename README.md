@@ -7,7 +7,7 @@ Uses the Microsoft Excel connector for Convertigo platform. Install this library
 
 * In the Dialog 'Project remote URL' field Paste :
 
-        lib_MicrosoftExcel_ui_ngx=https://github.com/convertigo/c8oprj-lib-excel-ui-ngx.git
+        lib_MicrosoftExcel_ui_ngx=https://github.com/convertigo/c8oprj-lib-excel-ui-ngx.git:branch=8.0.0
 
 * And click the 'Finish' button
 * This will also automatically import the lib_OAuth project
