@@ -125,7 +125,7 @@ title: First page
     ↓Event [ngx.components.UIControlEvent-1608055501365]: 
       ↓InvokeSharedAction [ngx.components.UIDynamicInvoke-1608055512197]: 
         beanData: '{"ionBean":"InvokeAction"}'
-        stack: lib_MicrosoftExcel_Ngx.MobileApplication.Application.Authenticate
+        stack: lib_MicrosoftExcel_ui_ngx.MobileApplication.Application.Authenticate
   ↓Button1 [ngx.components.UIDynamicElement-1608134977433]: 
     beanData: '{"ionBean":"Button"}'
     tagName: ion-button
@@ -136,25 +136,25 @@ title: First page
           - MobileSmartSourceType: plain:GetRange
     ↓Event [ngx.components.UIControlEvent-1608134992939]: 
       ↓CallSequence [ngx.components.UIDynamicAction-1608135019735]: 
-        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:lib_MicrosoftExcel_Ngx.SheetGetRange"}'
+        beanData: '{"ionBean":"CallSequenceAction","requestable":"plain:lib_MicrosoftExcel.SheetGetRange"}'
         ↓name [ngx.components.UIControlVariable-1608135074082]: 
           comment: new variable
           varValue: 
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-              - MobileSmartSourceType: source:{"filter":"Form","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"priority":1608189222778,"identifier":"form1608189222778"}],"path":"?.controls['name']?.value","prefix":"","suffix":"","custom":"","useCustom":false}}
+              - MobileSmartSourceType: source:{"filter":"Form","project":"lib_MicrosoftExcel_ui_ngx","input":"","model":{"data":[{"priority":1608189222778,"identifier":"form1608189222778"}],"path":"?.controls['name']?.value","prefix":"","suffix":"","custom":"","useCustom":false}}
         ↓range [ngx.components.UIControlVariable-1608135074084]: 
           comment: new variable
           varValue: 
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-              - MobileSmartSourceType: source:{"filter":"Form","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"priority":1608189222778,"identifier":"form1608189222778"}],"path":"?.controls['Range']?.value","prefix":"","suffix":"","custom":"","useCustom":false}}
+              - MobileSmartSourceType: source:{"filter":"Form","project":"lib_MicrosoftExcel_ui_ngx","input":"","model":{"data":[{"priority":1608189222778,"identifier":"form1608189222778"}],"path":"?.controls['Range']?.value","prefix":"","suffix":"","custom":"","useCustom":false}}
         ↓itemPath [ngx.components.UIControlVariable-1608135074086]: 
           comment: new variable
           varValue: 
             - xmlizable: 
               - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-              - MobileSmartSourceType: source:{"filter":"Form","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"priority":1608189222778,"identifier":"form1608189222778"}],"path":"?.controls['path']?.value","prefix":"","suffix":"","custom":"","useCustom":false}}
+              - MobileSmartSourceType: source:{"filter":"Form","project":"lib_MicrosoftExcel_ui_ngx","input":"","model":{"data":[{"priority":1608189222778,"identifier":"form1608189222778"}],"path":"?.controls['path']?.value","prefix":"","suffix":"","custom":"","useCustom":false}}
   ↓Div [ngx.components.UIDynamicElement-1608652936473]: 
     beanData: '{"ionBean":"DivTag"}'
     tagName: div
@@ -195,13 +195,13 @@ title: First page
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-            - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"sequence":"lib_MicrosoftExcel_Ngx.SheetGetRange","marker":""}],"path":"?.sheet?.columns","prefix":"","suffix":"","custom":"","useCustom":false}}
+            - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_MicrosoftExcel_ui_ngx","input":"","model":{"data":[{"sequence":"lib_MicrosoftExcel.SheetGetRange","marker":""}],"path":"?.sheet?.columns","prefix":"","suffix":"","custom":"","useCustom":false}}
       ↓rowData [ngx.components.UIControlVariable-1608140652153]: 
         comment: 'Array of row { fieldName1: ''value1'', fieldName2: ''value2'', fieldName3: true, ...} objects'
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-            - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_MicrosoftExcel_Ngx","input":"","model":{"data":[{"sequence":"lib_MicrosoftExcel_Ngx.SheetGetRange","marker":""}],"path":"?.sheet?.data","prefix":"","suffix":"","custom":"","useCustom":false}}
+            - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_MicrosoftExcel_ui_ngx","input":"","model":{"data":[{"sequence":"lib_MicrosoftExcel.SheetGetRange","marker":""}],"path":"?.sheet?.data","prefix":"","suffix":"","custom":"","useCustom":false}}
       ↓width [ngx.components.UIControlVariable-1608140652155]: 
         comment: width value in % or px
         varValue: 
@@ -236,7 +236,7 @@ title: First page
       attrValue: 
         - xmlizable: 
           - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
-          - MobileSmartSourceType: plain:listen(['lib_MicrosoftExcel_Ngx.SheetGetRange'])?.sheet
+          - MobileSmartSourceType: plain:listen(['lib_MicrosoftExcel.SheetGetRange'])?.sheet
 ↓Footer [ngx.components.UIDynamicElement-1491634242460]: 
   beanData: '{"ionBean":"Footer"}'
   comment: Page footer
