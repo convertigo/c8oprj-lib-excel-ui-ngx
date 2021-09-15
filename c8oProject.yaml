@@ -2,7 +2,7 @@
 ↓lib_MicrosoftExcel_ui_ngx [core.Project]: 
   comment: The Microsoft Excel Office 365 connector for Convertigo
   corsOrigin: =Origin
-  version: 2.0.0
+  version: 3.0.0
   ↓void [connectors.SqlConnector]: 🗏 connectors/void.yaml
   ↓lib_ExtendedComponents_reference [references.ProjectSchemaReference]: 
     projectName: lib_ExtendedComponents_ui_ngx=https://github.com/convertigo/c8oprj-lib-extended-components-ui-ngx.git:branch=8.0.0:autoPull=true

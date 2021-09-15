@@ -160,61 +160,61 @@ title: First page
     tagName: div
     ↓UseSharedComponent [ngx.components.UIUseShared-1608140613965]: 
       sharedcomponent: lib_ExtendedComponents_ui_ngx.MobileApplication.Application.agGrid
-      ↓pagination [ngx.components.UIControlVariable-1608140652141]: 
+      ↓pagination [ngx.components.UIUseVariable-1608140652141]: 
         comment: 'boolean: true (default) or false'
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: script:true
-      ↓paginationPageSize [ngx.components.UIControlVariable-1608140652143]: 
+      ↓paginationPageSize [ngx.components.UIUseVariable-1608140652143]: 
         comment: 'integer: 10 by default'
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: script:1000
-      ↓rowSelection [ngx.components.UIControlVariable-1608140652145]: 
+      ↓rowSelection [ngx.components.UIUseVariable-1608140652145]: 
         comment: 'string: ''single'' (default) or ''multiple'''
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: script:'single'
-      ↓rowDeselection [ngx.components.UIControlVariable-1608140652147]: 
+      ↓rowDeselection [ngx.components.UIUseVariable-1608140652147]: 
         comment: 'boolean: true (default) or false'
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: script:true
-      ↓defaultColDef [ngx.components.UIControlVariable-1608140652149]: 
+      ↓defaultColDef [ngx.components.UIUseVariable-1608140652149]: 
         comment: 'default is {hide: false, editable: true, sortable: true, resizable: true, filter: true, checkboxSelection: false, singleClickEdit: false}'
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: 'script:{hide: false, editable: true, sortable: true, resizable: true, filter: true, checkboxSelection: false, singleClickEdit: false}'
-      ↓columnDefs [ngx.components.UIControlVariable-1608140652151]: 
+      ↓columnDefs [ngx.components.UIUseVariable-1608140652151]: 
         comment: 'Array of columnDef {headerName: ''headerName'', field: ''fieldName''} objects'
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_MicrosoftExcel_ui_ngx","input":"","model":{"data":[{"sequence":"lib_MicrosoftExcel.SheetGetRange","marker":""}],"path":"?.sheet?.columns","prefix":"","suffix":"","custom":"","useCustom":false}}
-      ↓rowData [ngx.components.UIControlVariable-1608140652153]: 
+      ↓rowData [ngx.components.UIUseVariable-1608140652153]: 
         comment: 'Array of row { fieldName1: ''value1'', fieldName2: ''value2'', fieldName3: true, ...} objects'
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: source:{"filter":"Sequence","project":"lib_MicrosoftExcel_ui_ngx","input":"","model":{"data":[{"sequence":"lib_MicrosoftExcel.SheetGetRange","marker":""}],"path":"?.sheet?.data","prefix":"","suffix":"","custom":"","useCustom":false}}
-      ↓width [ngx.components.UIControlVariable-1608140652155]: 
+      ↓width [ngx.components.UIUseVariable-1608140652155]: 
         comment: width value in % or px
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: script:'100%'
-      ↓height [ngx.components.UIControlVariable-1608140652157]: 
+      ↓height [ngx.components.UIUseVariable-1608140652157]: 
         comment: height is 'auto' or value in % or px
         varValue: 
           - xmlizable: 
             - ↑classname: com.twinsoft.convertigo.beans.ngx.components.MobileSmartSourceType
             - MobileSmartSourceType: script:'auto'
-      ↓class [ngx.components.UIControlVariable-1608140652159]: 
+      ↓class [ngx.components.UIUseVariable-1608140652159]: 
         comment: |
           'One of the themes provided here :
           
